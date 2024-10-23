@@ -1,0 +1,8 @@
+.active{
+    cursor: pointer;
+    color: gold;
+  }
+  .active:hover{
+    color: gold;
+    gap: 10px;
+  }

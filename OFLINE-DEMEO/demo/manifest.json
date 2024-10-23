@@ -1,0 +1,26 @@
+{
+  "theme_color": "#8936FF",
+  "background_color": "#2EC6FE",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "https://lh3.googleusercontent.com/ogw/AF2bZyiwWe7ScMWsV19oCN8UCUDReP2It4LuPDmElrx-NjzfZPa3=s64-c-mo",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "https://lh3.googleusercontent.com/ogw/AF2bZyiwWe7ScMWsV19oCN8UCUDReP2It4LuPDmElrx-NjzfZPa3=s64-c-mo",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "any",
+  "display": "standalone",
+  "dir": "auto",
+  "lang": "en-IN",
+  "name": "new app",
+  "short_name": "new",
+  "start_url": "/",
+  "scope": "/"
+}

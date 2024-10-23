@@ -1,0 +1,71 @@
+.container,
+h1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: lightgrey;
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+.containerInner {
+  width: 500px;
+}
+.selectFields {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.selectFields > img {
+  height: 25px;
+  width: 40px;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 15px;
+  background: grey;
+  border-radius: 10px;
+}
+.inputField {
+  padding: 5px;
+  width: 97%;
+}
+.buttonField {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.buttonField > button {
+  padding: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+.result {
+  color: green;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+}
+.selectInner {
+  padding: 5px;
+  width: 160px;
+  cursor: pointer;
+}
+.selectParent{
+    position: relative;
+}
+.starButton{
+    position: absolute;
+    top: 22px;
+    bottom: 0;
+    padding: 5px;
+    right: 18px;
+    height: 22px;
+    width: 26px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: none;
+    cursor: pointer;
+}
+.optionField{
+    background-color: blue;
+}

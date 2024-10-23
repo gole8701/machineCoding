@@ -1,0 +1,27 @@
+.body{
+    position: relative;
+}
+
+.ticTacToe{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.board{
+    background-color: lightgray;
+    display: grid;
+    text-align: center;
+    gap: 10px;
+}
+.cell{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+.cell:hover{
+box-shadow: 1px 2px 5px;
+}
