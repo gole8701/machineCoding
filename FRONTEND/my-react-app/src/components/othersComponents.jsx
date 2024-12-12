@@ -7,6 +7,7 @@ function OtherComponent({onChange, otherComponent}) {
             <option value={'currencyConversion'}>Currency Conversion</option>
             <option value={'star'}>Star Patterns</option>
             <option value={'virtualization'}>virtualization</option>
+            <option value={'boxDeselecting'}>box deselecting</option>
         </select>
     </div>
   )

@@ -17,6 +17,7 @@ import StarComponents from "./components/starComponent/starComponents";
 import TicTacToe from "./components/TicTacToe";
 import Virtualization from "./components/virtualization";
 import CurrencyConversion  from "./components/currencyConversion";
+import BoxDeselecting from "./components/boxDeselecting/boxDeselecting";
 
 function App() {
   const [language, setLanguage]= useState('En');
@@ -26,6 +27,7 @@ function App() {
     ['currencyConversion']: <CurrencyConversion />,
     ['star']: <StarComponents/>,
     ['virtualization']: <Virtualization/>,
+    ['boxDeselecting']: <BoxDeselecting/>,
   }
 
   return (

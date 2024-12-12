@@ -26,15 +26,12 @@ function LiveChat() {
       setChats((prev)=> [adminInput, ...prev]);
       setUserInput('')
   }
-
-console.log(userInput, "userInput");
-
+// console.log(userInput, "userInput");
   const fetchDetails = () => {
     const newData = [
       {
         name: generate(),
-        photo:
-          "https://yt4.ggpht.com/Nx8oW3lP_ajOhNnpL7jRLDKYG4k996rxTDPaai1anPG5vvac_dMGsz9TeTvUf7BoSylYIo7A=s64-c-k-c0x00ffffff-no-rj",
+        photo: "https://yt4.ggpht.com/Nx8oW3lP_ajOhNnpL7jRLDKYG4k996rxTDPaai1anPG5vvac_dMGsz9TeTvUf7BoSylYIo7A=s64-c-k-c0x00ffffff-no-rj",
         message: "Hi this is new message",
       },
     ];
@@ -54,7 +51,8 @@ console.log(userInput, "userInput");
       ))}
         </div>
         <div className={styles.adminInput}>
-       <input onKeyPress={handleKeyPress} value={userInput}  type ='text' onChange={(e)=>setUserInput(e.target.value)}/> <button onClick={handleAdminInput}>Send</button>
+       <input onKeyPress={handleKeyPress} value={userInput}  type ='text' onChange={(e)=>setUserInput(e.target.value)}/> 
+       <button onClick={handleAdminInput}>Send</button>
         </div>
     </div>
   );
